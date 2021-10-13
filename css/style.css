@@ -40,6 +40,10 @@ img{
     padding: 45px 0;
 }
 
+.bgr-color{
+    background-color: #f6f6f6;
+}
+
 /* common button classes */
 .btn{
     display: inline;
@@ -57,6 +61,11 @@ img{
     color: white;
 }
 
+.btn-violet{
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .btn-small{
     padding: 8px 14px;
     font-size: 14px;
@@ -70,7 +79,7 @@ img{
 
 /* common text classes */
 .title{
-    font-size: 60px;
+    font-size: 55px;
     line-height: 60px;
 }
 
@@ -124,7 +133,6 @@ header{
     background-size: cover;
     color: white;
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .jumbo-content{
@@ -148,11 +156,35 @@ header{
 
 /* Img and text main */
 .main-item{
-    margin-bottom: 400px;
+    padding: 150px 0;
     
 }
 
 .text-col h2{
     margin-bottom: 30px;
+}
+
+.item-content{
+    text-align: center;
+    padding:150px 0;
+}
+
+.item-content h2{
+    margin-bottom: 20px;
+}
+
+.item-text-and-bottom{
+    text-align: center;
+}
+
+.item-text-and-bottom h3{
+    display: inline-block;
+    width: 50%;
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 27px;
+    padding: 80px 50px 0 50px;
+    margin-bottom: 50px;
 }
 
