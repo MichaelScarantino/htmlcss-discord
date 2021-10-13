@@ -14,7 +14,6 @@ body{
 .container{
     width: 80%;
     margin: auto;
-    /* TEST */
 }
 
 img{
@@ -30,6 +29,15 @@ img{
 
 .col{
     float: left;
+}
+
+.img-col{
+    width: 65%;
+}
+
+.text-col{
+    width: 35%;
+    padding: 45px 0;
 }
 
 /* common button classes */
@@ -109,16 +117,14 @@ header{
 }
 
 /* MAIN */
-main{
-    text-align: center;
-}
-
 /* jumbotron */
 .jumbotron{
     background-image: url("../img/jumbo.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .jumbo-content{
@@ -138,5 +144,15 @@ main{
 
 .download-and-open a{
     margin-left: 30px;
+}
+
+/* Img and text main */
+.main-item{
+    margin-bottom: 400px;
+    
+}
+
+.text-col h2{
+    margin-bottom: 30px;
 }
 
