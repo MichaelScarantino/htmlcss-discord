@@ -1,0 +1,142 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+body{
+    font-family: "whitney", sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* TEST */
+}
+
+img{
+    width: 100%;
+}
+
+/* Layout structure */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+/* common button classes */
+.btn{
+    display: inline;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn-white{
+    background-color: white;
+    color: #34393c;
+}
+
+.btn-black{
+    background-color: #34393c;
+    color: white;
+}
+
+.btn-small{
+    padding: 8px 14px;
+    font-size: 14px;
+    
+}
+
+.btn-big{
+    padding: 14px 28px;
+    font-size: 18px;
+}
+
+/* common text classes */
+.title{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* HEADER */
+header{
+    height: 80px;
+    line-height: 80px;
+    background-color: #3161e0;
+}
+
+.logo-bar,
+.login-bar{
+    width: 10%;
+}
+
+.logo-bar img{
+   vertical-align: middle;
+}
+
+.menu-bar{
+    width: 80%;
+    text-align: center;
+}
+
+.menu-bar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.login-bar {
+    text-align: right;
+}
+
+/* MAIN */
+main{
+    text-align: center;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.jumbo-content{
+    width: 50%;
+    margin: auto;
+    padding: 115px 0;
+}
+
+.jumbo-content h1{
+    margin-bottom: 55px;
+}
+
+.download-and-open{
+    margin-top: 40px;
+    
+}
+
+.download-and-open a{
+    margin-left: 30px;
+}
+
