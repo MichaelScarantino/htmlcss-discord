@@ -14,10 +14,6 @@ body{
 .container{
     width: 80%;
     margin: auto;
-
-
-    /* test */
-    background-color: blue;
 }
 
 img{
@@ -204,21 +200,6 @@ footer{
 .language-and-social,
 .useful-links{
     width: 20%;
-    
-
-
-    /* test */
-    background-color: pink;
-    height: 300px;
-}
-
-.useful-links{
-    
-    
-
-    /* test */
-    background-color: red;
-    height: 300px;
 }
 
 
