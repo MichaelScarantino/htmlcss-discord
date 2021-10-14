@@ -44,6 +44,18 @@ img{
     background-color: #f6f6f6;
 }
 
+.wave{
+    color: #f6f6f6;
+}
+
+.wave svg{
+    display: block;
+}
+
+.wave-down{
+    transform: rotate(180deg);
+}
+
 /* common button classes */
 .btn{
     display: inline;
@@ -87,6 +99,12 @@ img{
     font-size: 20px;
     line-height: 30px;
 }
+
+.violet-text{
+    color: #8ea1e1;
+
+}
+
 
 /* HEADER */
 header{
@@ -191,20 +209,20 @@ header{
 /* FOOTER */
 footer{
     background-color: #22272a;
-
-    /* test */
-    height: 600px;
 }
 
 
-.language-and-social,
+.language-and-social{
+    width: 30%;
+}
+
 .useful-links{
-    width: 20%;
+    width: 17.5%;
 }
 
 
 .language-and-social h3{
-    font-size: 27px;
+    font-size: 35px;
 }
 
 .language-and-social li,
@@ -218,11 +236,49 @@ footer{
     color: white;
 }
 
+.row-link > .language-and-social li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
 .italy{
     width: 20px;
     vertical-align: middle;
     border-radius: 3px;
     margin-right: 3px;
+    padding: 30px 0;
 
 }
 
+.chevron{
+    font-size: 10px;
+}
+
+.row-link{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8ea1e1;
+}
+
+.useful-links h4{
+    color: #8ea1e1;
+}
+
+.useful-links li{
+    line-height: 30px;
+}
+
+.row-cta{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.col-logo-footer{
+    width: 10%;
+}
+
+.col-register{
+    width: 90%;
+    text-align: right;
+}
